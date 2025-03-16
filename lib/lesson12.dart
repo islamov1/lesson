@@ -24,6 +24,7 @@ int count = 4;
             });
           },
           child: Container(
+            padding: EdgeInsets.all(12),
             decoration: BoxDecoration(
               color: Colors.grey,
               borderRadius: BorderRadius.circular(100),

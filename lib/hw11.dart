@@ -20,6 +20,8 @@ class _Hw11Page extends State<Hw11Page> {
                 children: [
                   ElevatedButton(onPressed: increase1, child: Text('минус1')),
                   ElevatedButton(onPressed: increase5, child: Text('плюс1')),
+                  Padding(padding: EdgeInsets.all(8)),
+                  
                 ],
               ),
               Row(
